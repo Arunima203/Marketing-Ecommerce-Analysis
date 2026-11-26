@@ -1,0 +1,8 @@
+print("\n--- Customers Information ---")
+print(customers.info())
+print("\n--- Missing Values ---")
+print(customers.isnull().sum())
+print("\n--- Duplicate Rows ---")
+print(customers.duplicated().sum())
+print("\n--- Statistical Summary ---")
+print(customers.describe())
